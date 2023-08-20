@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+   overflow:auto;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(121, 121, 196);
+
+}
+#logo{
+    width:60px;
+    height:60px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+#rightbox{
+    
+    padding: 20px;
+}
+
+
+#listitems{
+   
+    padding-left: 40px;
+    font-size: 30px;
+    
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.firstbox{
+    width: 100%;
+    background-color: rgb(244, 235, 224);
+    border: 1px solid black;
+}
+
+#firstboxitem img{
+    width: 300px;
+    height: 300px;
+    border: 2px dashed rgb(65, 230, 53);
+    border-radius: 150px;
+}
+
+#firstboxitem{
+    margin: 20px;
+    display: flex;
+}
+
+.contentbox{
+    /* border: 2px dashed green;                                */
+    width: 80%;
+    margin: auto;
+    
+}
+.firstbox{
+    /* box-shadow: -5px -2px 50px -5px black; */
+    box-shadow: -5px -2px 30px 3px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+}
+
+.secondbox{
+    /* border: 2px dashed black;                                    */
+    padding: 30px;
+    background-color: rgb(243, 212, 173);
+    box-shadow: -5px -2px 30px 3px black;
+}
+
+.blog img{
+    width: 300px;
+    height:200px;
+}
+
+.blogitem{ 
+    /* border: 2px solid yellow;                            */
+    padding: 10px;
+    overflow:scroll;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.blog{
+    margin: 10px;
+    border: 1px solid rgb(69, 58, 50);                                    
+    padding: 00px;
+}
+
+.footer{
+    width:100%;
+    padding: 15px 0px 5px 10px;
+    background-color: rgb(121, 121, 196) ;
+}
+
+.container{
+    background-color: #098678;
+    background-image: linear-gradient(160deg, #098678 0%, #0093E9 50%, #ba1012 100%);
+
+}
